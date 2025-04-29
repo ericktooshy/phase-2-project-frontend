@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { auth } from '../main.jsx'
+import { auth } from '../firebase.js'
 import { signOut } from 'firebase/auth'
 
 function Navbar() {

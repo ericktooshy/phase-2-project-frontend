@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import { db } from '../main.jsx'
+import { db } from '../firebase.js'
 import { ref, onValue } from 'firebase/database'
 
 function Dashboard({ foods, setFoods }) {

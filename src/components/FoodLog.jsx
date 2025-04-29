@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { db } from '../main.jsx'
+import { db } from '../firebase.js'
 import { ref, push } from 'firebase/database'
 
 function FoodLog({ addFood, user }) {

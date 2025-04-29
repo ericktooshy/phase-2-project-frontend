@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { Routes, Route } from 'react-router-dom'
-import { auth } from './main.jsx'
+import { auth } from './firebase.js'
 import { onAuthStateChanged } from 'firebase/auth'
 import Dashboard from './components/Dashboard'
 import FoodLog from './components/FoodLog'

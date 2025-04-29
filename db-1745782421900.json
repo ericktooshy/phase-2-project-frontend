@@ -1,0 +1,22 @@
+{
+  "foods": [
+    {
+      "id": 1,
+      "name": "Chicken Breast",
+      "calories": 165,
+      "protein": 31,
+      "carbs": 0,
+      "fats": 3.6,
+      "userId": "1"
+    },
+    {
+      "id": 2,
+      "name": "Brown Rice",
+      "calories": 215,
+      "protein": 5,
+      "carbs": 45,
+      "fats": 1.6,
+      "userId": "1"
+    }
+  ]
+}
